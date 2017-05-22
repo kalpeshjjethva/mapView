@@ -9,6 +9,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Sec View Controller-->
+        <scene sceneID="KGA-yE-Xfw">
+            <objects>
+                <viewController id="cWP-dT-ckv" customClass="secViewController" customModule="mapView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mHp-LC-lXq"/>
+                        <viewControllerLayoutGuide type="bottom" id="p7P-Fz-2bc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UQi-WM-Ch7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kZY-j0-WDd" customClass="HACMKMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="kZY-j0-WDd" firstAttribute="leading" secondItem="UQi-WM-Ch7" secondAttribute="leading" id="05f-Pb-xia"/>
+                            <constraint firstAttribute="trailing" secondItem="kZY-j0-WDd" secondAttribute="trailing" id="a1W-NQ-unr"/>
+                            <constraint firstItem="kZY-j0-WDd" firstAttribute="top" secondItem="UQi-WM-Ch7" secondAttribute="top" id="j5b-et-RpY"/>
+                            <constraint firstItem="p7P-Fz-2bc" firstAttribute="top" secondItem="kZY-j0-WDd" secondAttribute="bottom" id="nhf-CI-wkq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="kZY-j0-WDd" id="nz1-E1-EY7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tEz-cL-otM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1530.4000000000001" y="341.37931034482762"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -21,8 +53,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Utd-Bd-J16">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="playback" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Utd-Bd-J16">
                                 <rect key="frame" x="20" y="20" width="984" height="728"/>
+                                <color key="backgroundColor" red="0.32934695510000001" green="0.32934695510000001" blue="0.32934695510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.32934695510000001" green="0.32934695510000001" blue="0.32934695510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="uTd-b3-BxJ"/>
                                 </connections>

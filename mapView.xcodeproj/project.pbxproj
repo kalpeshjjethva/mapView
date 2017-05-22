@@ -14,6 +14,18 @@
 		0E22E7641EC6D3BE0060845E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E22E7621EC6D3BE0060845E /* LaunchScreen.storyboard */; };
 		0E22E76E1EC6D3E20060845E /* HHLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E22E76D1EC6D3E20060845E /* HHLViewController.m */; };
 		0E22E7701EC6D4960060845E /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 0E22E76F1EC6D4960060845E /* countries.json */; };
+		0E6DE9911ED3006F00318B4E /* ADClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE98A1ED3006F00318B4E /* ADClusterAnnotation.m */; };
+		0E6DE9921ED3006F00318B4E /* ADClusterMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE98C1ED3006F00318B4E /* ADClusterMapView.m */; };
+		0E6DE9931ED3006F00318B4E /* ADMapCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE98E1ED3006F00318B4E /* ADMapCluster.m */; };
+		0E6DE9941ED3006F00318B4E /* ADMapPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9901ED3006F00318B4E /* ADMapPointAnnotation.m */; };
+		0E6DE9AF1ED30EC900318B4E /* pin.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 0E6DE9AE1ED30EC900318B4E /* pin.pdf */; };
+		0E6DE9BB1ED313E500318B4E /* HACQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9B11ED313E500318B4E /* HACQuadTree.m */; };
+		0E6DE9BC1ED313E500318B4E /* HACManagerQuadTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9B31ED313E500318B4E /* HACManagerQuadTree.m */; };
+		0E6DE9BD1ED313E500318B4E /* HAClusterAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9B51ED313E500318B4E /* HAClusterAnnotation.m */; };
+		0E6DE9BE1ED313E500318B4E /* HAClusterAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9B71ED313E500318B4E /* HAClusterAnnotationView.m */; };
+		0E6DE9BF1ED313E500318B4E /* HACMKMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9B91ED313E500318B4E /* HACMKMapView.m */; };
+		0E6DE9C11ED314E700318B4E /* secViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6DE9C01ED314E700318B4E /* secViewController.swift */; };
+		CA1F64F42ADB2FC7B5362756 /* Pods_mapView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA30F9F2468153530606D88 /* Pods_mapView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,29 @@
 		0E22E76C1EC6D3E20060845E /* HHLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHLViewController.h; sourceTree = "<group>"; };
 		0E22E76D1EC6D3E20060845E /* HHLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHLViewController.m; sourceTree = "<group>"; };
 		0E22E76F1EC6D4960060845E /* countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = countries.json; sourceTree = "<group>"; };
+		0E6DE9891ED3006F00318B4E /* ADClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADClusterAnnotation.h; sourceTree = "<group>"; };
+		0E6DE98A1ED3006F00318B4E /* ADClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADClusterAnnotation.m; sourceTree = "<group>"; };
+		0E6DE98B1ED3006F00318B4E /* ADClusterMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADClusterMapView.h; sourceTree = "<group>"; };
+		0E6DE98C1ED3006F00318B4E /* ADClusterMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADClusterMapView.m; sourceTree = "<group>"; };
+		0E6DE98D1ED3006F00318B4E /* ADMapCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMapCluster.h; sourceTree = "<group>"; };
+		0E6DE98E1ED3006F00318B4E /* ADMapCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMapCluster.m; sourceTree = "<group>"; };
+		0E6DE98F1ED3006F00318B4E /* ADMapPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMapPointAnnotation.h; sourceTree = "<group>"; };
+		0E6DE9901ED3006F00318B4E /* ADMapPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMapPointAnnotation.m; sourceTree = "<group>"; };
+		0E6DE9AE1ED30EC900318B4E /* pin.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = pin.pdf; sourceTree = "<group>"; };
+		0E6DE9B01ED313E500318B4E /* HACQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACQuadTree.h; sourceTree = "<group>"; };
+		0E6DE9B11ED313E500318B4E /* HACQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACQuadTree.m; sourceTree = "<group>"; };
+		0E6DE9B21ED313E500318B4E /* HACManagerQuadTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACManagerQuadTree.h; sourceTree = "<group>"; };
+		0E6DE9B31ED313E500318B4E /* HACManagerQuadTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACManagerQuadTree.m; sourceTree = "<group>"; };
+		0E6DE9B41ED313E500318B4E /* HAClusterAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAClusterAnnotation.h; sourceTree = "<group>"; };
+		0E6DE9B51ED313E500318B4E /* HAClusterAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAClusterAnnotation.m; sourceTree = "<group>"; };
+		0E6DE9B61ED313E500318B4E /* HAClusterAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HAClusterAnnotationView.h; sourceTree = "<group>"; };
+		0E6DE9B71ED313E500318B4E /* HAClusterAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HAClusterAnnotationView.m; sourceTree = "<group>"; };
+		0E6DE9B81ED313E500318B4E /* HACMKMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACMKMapView.h; sourceTree = "<group>"; };
+		0E6DE9B91ED313E500318B4E /* HACMKMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACMKMapView.m; sourceTree = "<group>"; };
+		0E6DE9C01ED314E700318B4E /* secViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secViewController.swift; sourceTree = "<group>"; };
+		2F576BC1757E779105D496A6 /* Pods-mapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mapView/Pods-mapView.debug.xcconfig"; sourceTree = "<group>"; };
+		AFA30F9F2468153530606D88 /* Pods_mapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A27C8E2453F62B6C269430 /* Pods-mapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mapView.release.xcconfig"; path = "Pods/Target Support Files/Pods-mapView/Pods-mapView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +70,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA1F64F42ADB2FC7B5362756 /* Pods_mapView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09D06D6BDD83209F61039212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F576BC1757E779105D496A6 /* Pods-mapView.debug.xcconfig */,
+				B2A27C8E2453F62B6C269430 /* Pods-mapView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0E22E74D1EC6D3BD0060845E = {
 			isa = PBXGroup;
 			children = (
 				0E22E7581EC6D3BD0060845E /* mapView */,
 				0E22E7571EC6D3BD0060845E /* Products */,
+				09D06D6BDD83209F61039212 /* Pods */,
+				B36CA01161073E37DEB79ABF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,17 +108,62 @@
 			isa = PBXGroup;
 			children = (
 				0E22E76F1EC6D4960060845E /* countries.json */,
+				0E6DE9AE1ED30EC900318B4E /* pin.pdf */,
+				0E6DE9BA1ED313E500318B4E /* HACClusterMapViewController */,
+				0E6DE9881ED3006F00318B4E /* ADClusterMapView */,
 				0E22E7591EC6D3BD0060845E /* AppDelegate.swift */,
 				0E22E76C1EC6D3E20060845E /* HHLViewController.h */,
 				0E22E76D1EC6D3E20060845E /* HHLViewController.m */,
 				0E22E75B1EC6D3BD0060845E /* ViewController.swift */,
 				0E22E75D1EC6D3BD0060845E /* Main.storyboard */,
+				0E6DE9C01ED314E700318B4E /* secViewController.swift */,
 				0E22E7601EC6D3BE0060845E /* Assets.xcassets */,
 				0E22E7621EC6D3BE0060845E /* LaunchScreen.storyboard */,
 				0E22E7651EC6D3BE0060845E /* Info.plist */,
 				0E22E76B1EC6D3E20060845E /* mapView-Bridging-Header.h */,
 			);
 			path = mapView;
+			sourceTree = "<group>";
+		};
+		0E6DE9881ED3006F00318B4E /* ADClusterMapView */ = {
+			isa = PBXGroup;
+			children = (
+				0E6DE9891ED3006F00318B4E /* ADClusterAnnotation.h */,
+				0E6DE98A1ED3006F00318B4E /* ADClusterAnnotation.m */,
+				0E6DE98B1ED3006F00318B4E /* ADClusterMapView.h */,
+				0E6DE98C1ED3006F00318B4E /* ADClusterMapView.m */,
+				0E6DE98D1ED3006F00318B4E /* ADMapCluster.h */,
+				0E6DE98E1ED3006F00318B4E /* ADMapCluster.m */,
+				0E6DE98F1ED3006F00318B4E /* ADMapPointAnnotation.h */,
+				0E6DE9901ED3006F00318B4E /* ADMapPointAnnotation.m */,
+			);
+			path = ADClusterMapView;
+			sourceTree = "<group>";
+		};
+		0E6DE9BA1ED313E500318B4E /* HACClusterMapViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E6DE9B01ED313E500318B4E /* HACQuadTree.h */,
+				0E6DE9B11ED313E500318B4E /* HACQuadTree.m */,
+				0E6DE9B21ED313E500318B4E /* HACManagerQuadTree.h */,
+				0E6DE9B31ED313E500318B4E /* HACManagerQuadTree.m */,
+				0E6DE9B41ED313E500318B4E /* HAClusterAnnotation.h */,
+				0E6DE9B51ED313E500318B4E /* HAClusterAnnotation.m */,
+				0E6DE9B61ED313E500318B4E /* HAClusterAnnotationView.h */,
+				0E6DE9B71ED313E500318B4E /* HAClusterAnnotationView.m */,
+				0E6DE9B81ED313E500318B4E /* HACMKMapView.h */,
+				0E6DE9B91ED313E500318B4E /* HACMKMapView.m */,
+			);
+			name = HACClusterMapViewController;
+			path = "../../../Downloads/HACClusterMapViewController-master/HACClusterMapViewController";
+			sourceTree = "<group>";
+		};
+		B36CA01161073E37DEB79ABF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFA30F9F2468153530606D88 /* Pods_mapView.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E22E7681EC6D3BE0060845E /* Build configuration list for PBXNativeTarget "mapView" */;
 			buildPhases = (
+				C9B66B5D3139F6974A925ACF /* [CP] Check Pods Manifest.lock */,
 				0E22E7521EC6D3BD0060845E /* Sources */,
 				0E22E7531EC6D3BD0060845E /* Frameworks */,
 				0E22E7541EC6D3BD0060845E /* Resources */,
+				8F90229C5D404D06AF956375 /* [CP] Embed Pods Frameworks */,
+				4DA54DC23E9925A62FA3CD40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +231,7 @@
 			files = (
 				0E22E7641EC6D3BE0060845E /* LaunchScreen.storyboard in Resources */,
 				0E22E7611EC6D3BE0060845E /* Assets.xcassets in Resources */,
+				0E6DE9AF1ED30EC900318B4E /* pin.pdf in Resources */,
 				0E22E7701EC6D4960060845E /* countries.json in Resources */,
 				0E22E75F1EC6D3BD0060845E /* Main.storyboard in Resources */,
 			);
@@ -143,14 +239,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DA54DC23E9925A62FA3CD40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapView/Pods-mapView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F90229C5D404D06AF956375 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mapView/Pods-mapView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9B66B5D3139F6974A925ACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E22E7521EC6D3BD0060845E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E6DE9931ED3006F00318B4E /* ADMapCluster.m in Sources */,
+				0E6DE9921ED3006F00318B4E /* ADClusterMapView.m in Sources */,
+				0E6DE9BF1ED313E500318B4E /* HACMKMapView.m in Sources */,
 				0E22E75C1EC6D3BD0060845E /* ViewController.swift in Sources */,
 				0E22E76E1EC6D3E20060845E /* HHLViewController.m in Sources */,
+				0E6DE9BD1ED313E500318B4E /* HAClusterAnnotation.m in Sources */,
+				0E6DE9BE1ED313E500318B4E /* HAClusterAnnotationView.m in Sources */,
+				0E6DE9941ED3006F00318B4E /* ADMapPointAnnotation.m in Sources */,
+				0E6DE9C11ED314E700318B4E /* secViewController.swift in Sources */,
+				0E6DE9BC1ED313E500318B4E /* HACManagerQuadTree.m in Sources */,
+				0E6DE9911ED3006F00318B4E /* ADClusterAnnotation.m in Sources */,
 				0E22E75A1EC6D3BD0060845E /* AppDelegate.swift in Sources */,
+				0E6DE9BB1ED313E500318B4E /* HACQuadTree.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +425,14 @@
 		};
 		0E22E7691EC6D3BE0060845E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F576BC1757E779105D496A6 /* Pods-mapView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mapView",
+				);
 				INFOPLIST_FILE = mapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.mapView;
@@ -286,9 +445,14 @@
 		};
 		0E22E76A1EC6D3BE0060845E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A27C8E2453F62B6C269430 /* Pods-mapView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/mapView",
+				);
 				INFOPLIST_FILE = mapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sufalamtech.mapView;
@@ -317,6 +481,7 @@
 				0E22E76A1EC6D3BE0060845E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
